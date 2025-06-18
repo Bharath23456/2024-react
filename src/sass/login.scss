@@ -1,10 +1,18 @@
+body{
+     background: url("https://webneel.com/wallpaper/sites/default/files/images/04-2013/rain-wallpaper-scenary.jpg");
+}
+
 .login {
      position: absolute;
      width: 300px;
-     height: 150px;
      top: 50%;
      left: 50%;
+     background-color: #e6ffff;
      transform: translate(-50%,-50%);
+     border: 2px solid green;
+     padding: 10px;
+     border-radius: 10px;
+     
 
   h2 {
     font-size: 24px;
@@ -28,11 +36,18 @@
 
     button {
       padding: 10px;
-      background-color: blue;
+      background-color: green;
       color: white;
       border: none;
-      cursor: pointer;
+      &:hover{
+          background: gray;
+      }
       
+      }
+      a{
+          color: rgb(52, 49, 239);
+          text-decoration: none;
+          text-align: right;
       }
     }
   }
