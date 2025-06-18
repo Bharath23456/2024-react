@@ -9,13 +9,13 @@ ul{
     display: flex;
     gap: 10px;
     justify-content: flex-end;
-    background-color: aquamarine;
+    background-color: grey;
      
     li{
         padding: 10px;
         a{
             text-decoration: none;
-            color: blue;
+            color: #fff;
             text-transform: uppercase;
             &:hover{
                 color: gold;
