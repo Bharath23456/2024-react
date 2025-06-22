@@ -1,10 +1,8 @@
-import Login from "./components/Login";
-import Navigation from "./components/Navigation";
-// import Table from "./components/Table";
+import Signup from "./components/Signup";
 const App=()=>{
   return <div className="container">
-  <Navigation />
-  <Login />
+    <Signup />
+  
   </div>
 }
 export default App;

@@ -1,0 +1,42 @@
+body{
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/021/185/839/small/joyful-premium-background-design-with-abstract-fluid-and-liquid-yellow-blue-pink-background-suitable-for-business-banner-formal-invitation-prestigious-gift-certificate-vector.jpg");
+}
+
+.signup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid black;
+    border-radius: 1%;
+    padding: 50px;
+    background-color: #E0FFFF;
+    form{       
+        input{
+             width: 100%;
+             padding: 10px;
+             border: 1px solid #ccc;
+             border-radius: 5px;
+             background-color: #f9fcff;
+             font-size: 15px;
+
+        }
+        label{
+            font-size: large;
+            color: black;
+        }
+        
+        
+    }
+    button{
+        width: 40%;
+        right:30%;
+        position: absolute;
+        background:green;
+        color: #fff;
+        border-radius:12px ;
+        text-transform: uppercase;
+        font-size: 20px;
+    
+    }
+}
