@@ -1,10 +1,10 @@
-import Login from "./components/Login";
-import Navigation from "./components/Navigation";
-// import Table from "./components/Table";
+import Comments from "./components/Comments";
+import Like from "./components/Like";
+
 const App=()=>{
   return <div className="container">
-  <Navigation />
-  <Login />
+  <Like />
+  <Comments />
   </div>
 }
 export default App;
